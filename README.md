@@ -17,3 +17,5 @@ Numerical Simutlation and conversion to permeability are contained in a block ca
 This sim.function() is then utilized with a sum of least squares error Nelder Mead optimization algorithm with Alpha, Beta, and Initial Permeability to fit the parameters to experimental data.
 
 A plot is produced visualizing experimental data and subsequent curve fit. 
+
+**Note: This is a Julia file that was created using Pluto Notebook. It will require Julia to run, and Pluto to edit.**
