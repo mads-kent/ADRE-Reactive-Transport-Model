@@ -11,9 +11,9 @@ Decay kinetics are simulated as first order interactions with H2O2 free radicals
 
 The primary output of the ADRE simulation is biofilm volume fraction.
 Whithin the numerical simulation an exponential model is applied to convert biofilm volume fraction to biofilm porosity, and a second exponential model is used to convert biofilm volume fraction to column permeability.
-Alpha and Beta are target variables in the exponential functions that are fitted
+Alpha, Beta, and initial Permeability are target variables in the exponential functions that are fitted
 
 Numerical Simutlation and conversion to permeability are contained in a block called sim.function().
-This sim.function() is then utilized with a sum of least squares error Nelder Mead optimization algorithm with Alpha and Beta to fit the parameters to experimental data.
+This sim.function() is then utilized with a sum of least squares error Nelder Mead optimization algorithm with Alpha, Beta, and Initial Permeability to fit the parameters to experimental data.
 
 A plot is produced visualizing experimental data and subsequent curve fit. 
